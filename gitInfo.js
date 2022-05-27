@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-let gitDefinition = 'Git is a DevOps tool'
+let gitDefinition = 'Git is a DevOps tool' //version control software that helps the development process by making collaboration, backing up code, and version control much smoother
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@ let gitDefinition = 'Git is a DevOps tool'
     It should be a string containing your best definition of what GitHub is.
 */
 
-let gitHubDefinition = 'GitHub is a code hosting platform'
+let gitHubDefinition = 'GitHub is a code hosting platform' //website where you can push git repositories and share them
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -46,8 +46,8 @@ const init = {
 */
 
 const clone = {
-    description: 'Copies an object properties to another object',
-    code: 'Create const cloneObjectName = Object.assign({}, ObjectName)',
+    description: 'Copies an object properties to another object',         //copies an existing repository at the specified location
+    code: 'Create const cloneObjectName = Object.assign({}, ObjectName)', //"git clone <URL>"
 }
 //console.log(clone)
 
