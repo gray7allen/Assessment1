@@ -27,9 +27,9 @@
     Create a variable for each of the above steps of the Software Development Lifecycle and set the values of each variable to a definition of the step.
 */
 
-let Planning = Step1 //"deciding what to build"
-let analysisOfRequirements = Step2 //"deciding what your product needs to do very specifically"
-let Design = Step3 //"decide what the project looks like, outline the details for the overall application"
-let Implementation = Step4 //"where the rubber meets the road: actual coding!"
-let testingAndIntegration = Step5 //"testing the software and interaction between the components and making sure the project funtions properly"
-let Maintain = Step6 //"update and fix bugs"
+let Planning = "deciding what to build"
+let analysisOfRequirements = "deciding what your product needs to do very specifically"
+let Design = "decide what the project looks like, outline the details for the overall application"
+let Implementation = "where the rubber meets the road: actual coding!"
+let testingAndIntegration = "testing the software and interaction between the components and making sure the project funtions properly"
+let Maintain = "update and fix bugs"
