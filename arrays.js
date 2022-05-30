@@ -3,7 +3,7 @@
 
 const faveColors = ['red', 'green', 'black']
 
-let colorCopy = faveColors.slice(0, 3) //didn't need 0, 3
+let colorCopy = faveColors.slice() //didn't need 0, 3
 //console.log(colorCopy)
 
 //////////////////PROBLEM 2////////////////////
@@ -38,16 +38,16 @@ let middleNums = numbers.splice(1, 3)
 */
 
 function bigOrSmall(arr) {
-  // let answers = []
+  let answers = []
 
-  // for (let i = 0; i < arr.length; i++)
-  //   if(arr[i] > 100) {
-  //     answers.push("big")
-  //   } else {
-  //     answers.push("small")
-  //   }
+  for (let i = 0; i < arr.length; i++)
+    if(arr[i] > 100) {
+      answers.push("big")
+    } else {
+      answers.push("small")
+    }
 
-  //   return answers
+    return answers
 }
 
 
